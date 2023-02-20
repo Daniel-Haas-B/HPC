@@ -19,8 +19,8 @@ void fill_matrix_B(int **matrix, int m, int n);
 
 int main()
 {
-    int **matrix_A = (int **)malloc(m * sizeof(int *));
-    int **matrix_B = (int **)malloc(m * sizeof(int *));
+    int **matrix_A = (int **)malloc(m * sizeof(int *)); // the (int **) is necessary because **matrix_A is a pointer to a pointer
+    int **matrix_B = (int **)malloc(m * sizeof(int *)); // notice it is malloc m because the contiguos memory is for the rows DISCUSS THIS
 
     for (int i = 0; i < m; i++)
     {
