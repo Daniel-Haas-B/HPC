@@ -40,6 +40,7 @@ int main()
         }
         free(cube[i]);
     }
+    free(cube); // this last free is needed because we allocated the memory for the 3D array
     printf("cube after free = %d \n", cube[2][2][2]);
     // what happens if we try to access the memory after we free it?
     // we CAN get a seg fault, but we can also get a the same number as before we free it
