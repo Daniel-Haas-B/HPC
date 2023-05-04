@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "string": "c",
+        "iosfwd": "c",
+        "__locale": "c",
+        "sstream": "c",
+        "algorithm": "c",
+        "array": "c",
+        "iterator": "c",
+        "string_view": "c",
+        "vector": "c",
+        "stdio.h": "c",
+        "math.h": "c",
+        "chrono": "c",
+        "complex": "c",
+        "limits": "c",
+        "ratio": "c",
+        "__bit_reference": "c",
+        "__hash_table": "c",
+        "__split_buffer": "c",
+        "initializer_list": "c",
+        "ios": "c",
+        "unordered_map": "c",
+        "mpi_functions.h": "c"
+    }
+}
