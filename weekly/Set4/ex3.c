@@ -67,6 +67,7 @@ int main()
     {
         free(A[i]);
         free(C[i]);
+        free(D[i]);
     }
     for (int i = 0; i < m; i++)
     {
@@ -75,6 +76,7 @@ int main()
     free(A);
     free(B);
     free(C);
+    free(D);
 
     return 0;
 }
